@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="8dp"
+    android:background="#0FFFFFFF"
+    android:gravity="center|center_horizontal|center_vertical"
+    android:orientation="vertical"
+    android:padding="14dp"
+    android:textAlignment="center"
+    tools:context=".KayitActivity">
+
+    <TextView
+        android:id="@+id/EditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFC0CB"
+        android:gravity="center|center_horizontal|center_vertical"
+        android:padding="8dp"
+        android:text="Giriş Yap"
+        android:textColor="#191818"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editTextTextEmailAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:hint="Eposta"
+        android:inputType="textEmailAddress"
+        android:paddingTop="8dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPassword2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:hint="Sifre"
+        android:inputType="textPassword"
+        android:padding="8dp"
+        android:paddingTop="16dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:gravity="center_horizontal|center_vertical"
+        android:paddingTop="2dp"
+        android:text="ya da "
+        android:textColor="#121010" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="156dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:background="#E41E60"
+        android:text="Kayıt Ol" />
+</LinearLayout>
